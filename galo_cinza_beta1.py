@@ -21,10 +21,10 @@ class TelaPython:
         ]
         # Janela
         self.janela = sg.Window("Dados do Usuário").layout(layout)
-        # Extrair os dados da tela
-        self.button, self.values = self.janela.Read()
+        
         
     def Iniciar(self):
+        # Extrair os dados da tela
         while True:
             self.button, self.values = self.janela.Read()
             pasta = self.values["folder"]
