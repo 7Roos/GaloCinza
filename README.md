@@ -13,7 +13,9 @@ Utilizei o módulo OS para que eu pudesse navegar pelos diretórios e criar o ar
 - [ ] Oferecer mais opções de tipos de arquivos: áudio (mp3, wma..), imagens (png, svg...);
 - [ ] Converter todos os caracteres pra letras minúsculas, menos as iniciais;
 - [ ] Troca de faixa "2" para "02", pra que o relatório fique mais simétrico;
-- [ ] Retirar no final no nome do arquivo, dentro do txt, o nome da extenção, ou seja, de 02 - música1.mp3 para 02 - música1;
+- [x] Retirar no final no nome do arquivo, dentro do txt, o nome da extenção, ou seja, de 02 - música1.mp3 para 02 - música1;
 - [ ] Oferecer outros formatos de saída como pdf, bem como para word e excel;
 - [ ] Oferecer na interface a disponibilidade de editar o cabeçalho, para que o relatório se molde para cada tipo de trabalho específico.
 - [ ] Ao criar o relatório txt, ser possível editar as tag das músicas de forma automatizada, ou seja, sem ter que ir no Windows Media Player e alterar o título, autor, compositor...
+
+Além do mais, o arquivo está agora codificado em utf-8, permitindo assima inclusão de caracteres especiais.
